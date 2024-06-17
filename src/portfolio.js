@@ -21,38 +21,37 @@ const splashScreen = true // recommended: for best behavior after refresh
 // --- 👋 Greeting Section ---
 const greeting = {
     intro: "Hello 👋, my name is",
-    name: "Maxim Shelepov",
-    message: "I'm a computer science student and an aspiring software engineer. Currently working as a web developer at my university building tools to aid students, educators, and staff.",
-    basedLocation: "Raleigh, NC",
-    resumeLink: "https://docs.google.com/document/d/1Sa_sK3RMusoezzgzxu8LkV16i2Jra2qd/edit?usp=sharing&ouid=113657039181859132688&rtpof=true&sd=true", // recommended: google drive file share link (change to "anyone on the internet can view")
+    name: "Bete Goshme",
+    message: "Driven Software Engineer with two years plus experience in software development. Loves to write codein JavaScript, Python and Golang. I Excel in problem-solving and thrive in a team environment. Seekinga challenging role where I can showcase my technical expertise and contribute to building the futuretogether with a dynamic and innovative team.",
+    basedLocation: "Addiss Ababa Ethiopia",
+    resumeLink: "https://drive.google.com/file/d/18OOWB_CzeHa6GZWhQfGvRx1VzDwuv_qJ/view?usp=sharing", 
     logo: {
-        link: "images/initials.png", // use relative path from  parent directory -> ex: images/image.ext
-        custom: true // takes precedence over image logo and allows for custom HTML logo (./components/Navbar.vue)
+        custom: true 
     },
-    portraitLink: 'images/portrait.jpg'
+    portraitLink: 'images/me.jpg'
 }
 
 const socialMediaLinks = {
-    github: "https://github.com/feifyKike",
-    linkedin: "https://www.linkedin.com/in/maxim-shelepov1",
-    medium: "https://medium.com/@mimaishel",
-    stackoverflow: "",
-    xtwitter: "https://twitter.com/mimaishel"
+    github: "https://github.com/bete7512",
+    linkedin: "https://www.linkedin.com/in/betegoshme/",
+    medium: "https://medium.com/@betekbebe",
+    stackoverflow: "https://stackoverflow.com/users/18930053/bete-goshme",
 } // to add any additional social media links check out the README.md or src/icons.js file
 
 // --- 😎 About Section ---
 const about = {
     autobiography: [
-        "My name is Maxim Shelepov and I'm a computer science student at North Carolina State University. I have a passion for coding in languages such as Python, Java, PHP, & Swift. Work in web development and have experience with Django and Laravel frameworks.",
-        "Responsible, organized, problem solver, and independent thinker. Work well in a team and a quick learner. Programming for 3+ years and have 4 years of experience in advanced mathematics such as calculus, statistics, and discrete mathematics. Currently working as a web development intern for my university."
+        "My name is Bete Goshme and Driven Software Engineer with two years plus experience in software development. Loves to write codein JavaScript, Python and Golang. I Excel in problem-solving and thrive in a team environment. Seekinga challenging role where I can showcase my technical expertise and contribute to building the futuretogether with a dynamic and innovative team."
     ], // Separated items are paragraphs
     techStack: [
-        "PHP",
+        "Golang",
         "Python",
         "JavaScript",
         "Vue.js",
         "MySQL",
-        "Swift"
+        "GRAPHQL",
+        "Django",
+        "Nginx",
     ],
     photo1Link: "images/portrait1.jpeg",
     photo2Link: "images/portrait2.jpeg",
@@ -62,148 +61,183 @@ const about = {
 // --- 🛡️ Experience Section ---
 const experiences = [
     {
-        position: "Web Dev Intern",
+        position: "Backend Developer",
         company: {
-            name: "WolfTech",
-            link: "https://tools.wolftech.ncsu.edu/support/index.php/WolfTech_Information_Technology"
+            name: "Minab It Solution PLC",
+            link: "https://minabtech.com"
         },
-        duration: "Aug 2022 - Present",
+        duration: "Aug 2023 - Present",
         bulletPoints: [
-            "Resolved issues and developed new tools within several university web applications (email automation, research discovery, educational resources, scheduling tools, and text-generative AI news sharing).",
-            "Achieved 100+ github code contributions as an intern on the team.",
-            "Currently rebuilding and modernizing the university digital sign manager and system."
+            "I have developed a robust backend using Golang, PostgreSQL, NATS, and AWS services such as EC2, S3, and RDS. With these technologies, I have walked through the process of building a single microservice and then streamlining multiple microservices together to function as a cohesive product that aligns with business needs.",
         ],
         hashtags: [
-            "Laravel",
-            "PHP",
-            "MySQL",
-            "JS",
-            "Vue.js",
-            "HTML",
-            "Tailwind"
+            "Golang",
+            "AWS",
+            "Nginx",
+            "Docker",
+            "NATS",
+            "PostgresQL"
+        ]
+    },
+
+    {
+        position: "DevOps Engineer",
+        company: {
+            name: "Intuitio Ventures Investment PLC",
+            link: "https://intuitio.xyz"
+        },
+        duration: "Apr 2024 - Present",
+        bulletPoints: [
+            "Maintain existing Django Backend project and add new features",
+            "Data Migration to new Servers",
+            "Vue 2, VueX, PostgresQL",
+            "Digital Ocean Server Management"
+        ],
+        hashtags: [
+            "VPS",
+            "Digital Ocean",
+            "Plesk",
+            "Django",
+            "PostgresQL"
         ]
     },
     {
-        position: "Math Tutor",
+        position: "Fullstack Developer",
         company: {
-            name: "Mathnasium",
-            link: "https://www.mathnasium.com"
+            name: "Hulu Labs",
+            link: "https://hululabs.com"
         },
-        duration: "Jan 2022 - Aug 2022",
+        duration: "Sept 2023 - June 2024",
         bulletPoints: [
-            "Taught math to students elementary through high school covering topics from basic algebra to college-level calculus.",
-            "Directed the trajectory of the student's learning plan and math topic evaluation to facilitate success in their school math class.",
-            "Requested by many students and parents for routine weekly tutoring sessions in a system with a standard random weekly rotation."
+            "I have developed a Fullstack Web Application using FastAPI in Python, React, PostgreSQL, and River Financial Blockchain. I have worked extensively as a full-stack developer, handling tasks from building the backend to designing the frontend. Additionally, I have engaged in discussions with business owners to ensure the delivery of the desired product.",
         ],
         hashtags: [
-            "Calc 1-2",
-            "Algebra 1-3",
-            "Discrete Math",
-            "Statistics"
+            "Pyhton",
+            "Digital Ocean VPS",
+            "Nginx",
+            "Docker",
+            "FastAPI",
+            "React"
         ]
-    }
+    },
+    {
+        position: "Fullstack Developer and Team Lead",
+        company: {
+            name: "Rensys Engineering PLC/ Bahir Dar Institute of Technology Incubation Center",
+            link: "https://rensysengineering.com"
+        },
+        duration: "Feb 2023 - Jul 2023",
+        bulletPoints: [
+            "Designed and implemented a user-friendly web-based interface using Vue.js, enhancing the overall user experience and ensuring easy navigation for admin from scratch.",
+            "Utilized Hasura, Node.js and Express to build a robust backend, ensuring seamles communication between the frontend and the database for quick and accurate data retrieval.",
+            "Integrated PostgreSQL to store and manage data, creating a scalable and secure database solution."
+        ],
+        hashtags: [
+            "Nuxt 3",
+            "Digital Ocean VPS",
+            "Nginx",
+            "Docker",
+            "Vue Js"
+        ]
+    },
+
+    {
+        position: "Intern",
+        company: {
+            name: "Minab It Solution PLC",
+            link: "https://minabtech.com"
+        },
+        duration: "May 2022 - Aug 2022",
+        bulletPoints: [
+            "As a Intern, gained practical knowledge in full-stack development using,Hasura GraphQl , Vue.js,Tailwind CSS, Node.js Express, Docker Products,Nginx Web server and PostgreSQL from professionaldevelopers. This experience has equipped me to create innovative solutions and excel in the dynamicworld of software development.",
+        ],
+        hashtags: [
+            "Hasura",
+            "Node JS",
+            "Vue Js",
+            "Tailwind",
+            "Nuxt",
+            "Docker Products",
+            "Tailwind"
+        ]
+    },
+
+
+
+
+
 ]
 
 // --- 💻 Work Section ---
 const works = [
     {
-        projectName: "TrackYourSubs IOS App",
-        yearCompleted: "2022",
-        description: "An IOS app to track you subscriptions and expenses, all the while presenting in a clean and professional look with a load of features. Some of the more evident features are: Budgeting (monthly / yearly option available), Current monthly & yearly total expense at a glance, Custom suggestions to meet budget, Organize (Categorization & Importance) and filter through subscriptions, Reminders via scheduled notifications, Stats page: pie chart visual, bar chart visual, and streak indicator.",
-        techStack: "Swift, SwiftUI",
+        projectName: "Work Space Booking System",
+        yearCompleted: "2024",
+        description: "Developed and Maintained a system for booking and ordering workspaces. Worked with Django, Python, MySQL, Vue Js, Quasar to create a user-friendly and efficient web application.",
+        techStack: "Django, Python, MySQL, Vue Js, Quasar",
         links: [
             {
                 label: "",
                 type: "git",
-                url: "https://github.com/feifyKike/TrackYourSubsDemo/"
+                url: "https://app.hubbits.co/#//"
             },
             {
                 label: "",
                 type: "external",
-                url: "https://youtu.be/KsTx-F70OOk"
+                url: "https://app.hubbits.co/#"
             }
         ],
-        imageLink: "images/tracksubs_pic.png",
+        imageLink: "images/portfolio2.png",
         alignLeft: false
     },
     {
-        projectName: "Dynamic Portfolio Website",
-        yearCompleted: "2021",
-        description: "Developed a personal portfolio website with Python backend using the Django web development framework. Incorporated HTML, CSS, and JavaScript to construct the frontend of the website.",
-        techStack: "Django, Python, HTML, CSS, JS",
+        projectName: "Child Center Tracking",
+        yearCompleted: "2024",
+        description: "Built Production Graded web application for tracking child center for Plan International Based in Hawassa which helps for low income mothers to provide nearest and cheapest child center.",
+        techStack: "Hasura, Golang ,PostgresQL",
         links: [
             {
                 label: "",
                 type: "external",
-                url: "https://maximshelepov.com"
+                url: "https://uymp.org"
             }
         ],
-        imageLink: "images/portfolio_pic.png",
+        imageLink: "images/portfolio3.png",
         alignLeft: true
     },
     {
-        projectName: "Sudoku Game & Solver",
-        yearCompleted: "2021",
-        description: "Built a Sudoku game UI incorporating the Java Swing library. Randomly generates a Sudoku puzzle and solves itself using the backtracking algorithm written in Java..",
-        techStack: "Java",
+        projectName: "Access To Finance Management",
+        yearCompleted: "2023",
+        description: "Built a system  for managing access finance from finance providers, NGOs and Banks , user , memebership , and transaction management with differnet authorizations for users, banks and NGOs.",
+        techStack: "Golang, GraphQL, NATS(PUB/SUB)",
         links: [
             {
                 label: "",
-                type: "git",
-                url: "https://github.com/feifyKike/sudokusolver"
-            },
-            {
-                label: "",
                 type: "external",
-                url: "https://youtu.be/lXOjOrjf5hU"
+                url: "https://kena.eyea.et"
             }
         ],
-        imageLink: "images/sudoku_pic.png",
+        imageLink: "images/portfolio4.png",
         alignLeft: false
     },
     {
-        projectName: "Trivia Quiz",
-        yearCompleted: "2020",
-        description: "Interested in taking a fun and interactive pop quiz? Using the HTML, CSS3, JavaScript, and jQuery I created a quiz that can be taken on numerous topics of your choice and gives instant feedback. The entire project is built mostly on JavaScript and all the functionality and events are controlled through functions such as ReadDisplay and Validate. The HTML portion of the online quiz only serves as the skeleton and template for elements that will be created via JS.",
+        projectName: "Sheger Gebeta",
+        yearCompleted: "2024",
+        description: "Built a Backend for one of well known restaurant , hotel, caffe and catering reviewer which is under development  ",
         techStack: "JS, HTML, CSS",
         links: [
             {
                 label: "",
-                type: "git",
-                url: "https://github.com/feifyKike/JS-API-Quiz"
-            },
-            {
-                label: "",
                 type: "external",
-                url: "https://codepen.io/Max_the_coder/pen/yLXZOYL" //https://codepen.io/Max_the_coder/pen/yLXZOYL
+                url: "https://shegergebeta.com" 
             }
         ],
-        imageLink: "images/trivia_pic.png",
+        imageLink: "images/portfolio5.png",
         alignLeft: true
     },
-    {
-        projectName: "Coronavirus Report",
-        yearCompleted: "2020",
-        description: "Created a program that displays up-to-date COVID-19 data and shows results in a graphical / visual representation. Coded with the Python programming language and libraries such as Matplotlib, Requests, and CSV.",
-        techStack: "Python",
-        links: [
-            {
-                label: "",
-                type: "git",
-                url: "https://youtu.be/gw5kb1QKVp0"
-            },
-            {
-                label: "",
-                type: "external",
-                url: "https://github.com/feifyKike/Covid-Cases-Visual"
-            }
-        ],
-        imageLink: "images/covid_pic.png",
-        alignLeft: false
-    }
 ]
 
-const archiveLink = "https://github.com/feifyKike?tab=repositories"
+const archiveLink = "https://github.com/bete7512?tab=repositories"
 
 // --- 📭 Contact Section ---
 // 2 Options available - Choose 1
@@ -211,16 +245,15 @@ const contact = {
     externalLink: {
         shortTitle: "Get in Touch",
         note: [
-            "Currently seeking web and software development positions/internships in the RTP area for summer 2024.",
-            "Also looking to build a team for projects & startup ideas or just make professional connections."
-        ], // paragraph breaks will be entered after each item,
+            "Want to do impact? Reach out to me at",
+        ],
         link: {
-            email: "", // email takes precedance
-            other: "https://forms.gle/W3MswTKsPWMxEbn58"
+            email: "betekbebe@gmail.com", 
+            // other: "https://forms.gle"
         },
         responseTimeMessage: "...and I'll resopnd within the next 24hrs"
     },
-    formEmbedLink: "" // inclusion of this link will take precedance
+    formEmbedLink: "" 
 }
 
 export default {
