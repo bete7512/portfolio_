@@ -4,7 +4,7 @@
             <h1 class="text-3xl font-bold pr-5">😎 About Me</h1>
             <div class="flex-grow border-t border-black dark:border-white border-1"></div>
         </div>
-        <div :class="['flex flex-col gap-y-1 mb-32  xl:grid xl:grid-cols-2 xl:gap-x-5 xl:gap-y-0  text-slate-500 dark:text-slate-300 transition-all motion-reduce:transition-none duration-500 delay-300', visible ? 'translate-y-0 opacity-1 blur-0' : 'translate-y-4 opacity-0 blur-sm']">
+        <div :class="['flex flex-col gap-y-1 mb-32  xl:grid xl:grid-cols-1 xl:gap-x-5 xl:gap-y-0  text-slate-500 dark:text-slate-300 transition-all motion-reduce:transition-none duration-500 delay-300', visible ? 'translate-y-0 opacity-1 blur-0' : 'translate-y-4 opacity-0 blur-sm']">
             <div class="order-2 xl:order-none">
                 <p v-for="paragraph in content.autobiography">{{ paragraph }}<br/><br/></p>
                 <div>
@@ -14,7 +14,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="grid grid-rows-1 gap-y-4 order-1 xl:order-none">
+            <!-- <div class="grid grid-rows-1 gap-y-4 order-1 xl:order-none"> -->
                 <!-- <div class="grid grid-cols-2 gap-x-4">
                     <div>
                         <img :src="getImageUrl(content.photo1Link)" class="shadow-md" loading="lazy"/>
@@ -23,10 +23,10 @@
                         <img :src="getImageUrl(content.photo2Link)" class="shadow-md" loading="lazy"/>
                     </div>
                 </div> -->
-                <div>
+                <!-- <div>
                     <img :src="getImageUrl(content.photo3Link)" class="shadow-md" loading="lazy"/>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 </template>

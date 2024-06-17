@@ -55,7 +55,7 @@ const about = {
     ],
     photo1Link: "images/portrait1.jpeg",
     photo2Link: "images/portrait2.jpeg",
-    photo3Link: "images/portrait3.jpeg"
+    // photo3Link: "images/me.jpg"
 }
 
 // --- 🛡️ Experience Section ---
