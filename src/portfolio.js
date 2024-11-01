@@ -24,7 +24,7 @@ const greeting = {
     name: "Bete Goshme",
     message: "Driven Software Engineer with two years plus experience in software development. Loves to write codein JavaScript, Python and Golang. I Excel in problem-solving and thrive in a team environment. Seekinga challenging role where I can showcase my technical expertise and contribute to building the futuretogether with a dynamic and innovative team.",
     basedLocation: "Addiss Ababa Ethiopia",
-    resumeLink: "https://drive.google.com/file/d/18OOWB_CzeHa6GZWhQfGvRx1VzDwuv_qJ/view?usp=sharing", 
+    resumeLink: "https://drive.google.com/file/d/1r1qjMAqT6nSRfb-Oj1AAAQsv1cRsvoVV/view?usp=drive_link", 
     logo: {
         custom: true 
     },
